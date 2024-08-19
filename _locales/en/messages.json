@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Custom New Tab URL"
+  },
+  "extDesc": {
+    "message": "Customize the link to open a new tab."
+  },
+  "tutorial": {
+    "message": "https://dev-coco.github.io/post/Custom-New-Tab-URL-EN/"
+  }
+}

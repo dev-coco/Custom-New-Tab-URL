@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "自定义新分页链接"
+  },
+  "extDesc": {
+    "message": "自定义打开新分页的链接。"
+  },
+  "tutorial": {
+    "message": "https://dev-coco.github.io/post/Custom-New-Tab-URL/"
+  }
+}

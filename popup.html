@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>*,::after,::before{box-sizing:border-box}body{padding:.5rem;width:300px}input{margin:0}input[type=text]{display:block;width:100%;padding:.375rem .75rem;font-size:1rem;border:1px solid #dee2e6;border-radius:.375rem;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}input[type=text]:focus{border-color:#86b7fe;outline:0;box-shadow:0 0 0 .25rem rgba(13,110,253,.25)}div{position:relative;display:flex;flex-wrap:wrap;align-items:stretch;width:100%;margin-bottom:1rem}div>input[type=text]{position:relative;flex:1 1 auto;width:1%;min-width:0}span{display:flex;align-items:center;padding:.375rem .75rem;font-size:1rem;font-weight:400;line-height:1.5;text-align:center;white-space:nowrap;border:1px solid #dee2e6;border-radius:.375rem}div span{border-top-right-radius:0;border-bottom-right-radius:0}div>input[type=text]:not(:first-child){margin-left:-1px;border-top-left-radius:0;border-bottom-left-radius:0}input[type=checkbox]{height:0;width:0;visibility:hidden}label{cursor:pointer;text-indent:-9999px;width:60px;height:31px;background:grey;display:block;border-radius:31px;position:relative;margin-right:auto;margin-left:auto}label:after{content:'';position:absolute;top:2.5px;left:2.5px;width:25px;height:25px;background:#fff;border-radius:25px}input[type=checkbox]:checked+label{background:#bada55}input[type=checkbox]:checked+label:after{left:calc(100% - 2.5px);transform:translateX(-100%)}</style>
+</head>
+<body>
+  <div>
+    <input type="checkbox" id="switch">
+    <label for="switch"></label>
+  </div>
+  <div>
+    <span>URL</span>
+    <input type="text">
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
